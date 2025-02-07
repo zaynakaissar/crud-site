@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:5px;
-    margin: 0;
+    margin: 30px;
 }
 h1 {
     margin-bottom: 0;
