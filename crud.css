@@ -10,7 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     gap:5px;
-    margin: 30px;
+    margin:200px;
+    margin-top: 8px;
 }
 h1 {
     margin-bottom: 0;
@@ -37,9 +38,7 @@ button{
     border-radius: 4px;
     padding:8px;
 }
-#div button {
-    background-color: rgb(226, 43, 104);
-}
+
 table {
     border-collapse: collapse;
     color: black;
@@ -62,6 +61,10 @@ table{
 }
 #div  {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 5px;
+}
+#Total {
+    background-color: rgb(226, 43, 104);
+    width: 100%;
 }
